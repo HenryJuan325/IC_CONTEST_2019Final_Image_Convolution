@@ -1,0 +1,10 @@
+s1(22Mar2023:20:57:57):  irun -f ncvlog.f 
+s2(22Mar2023:21:16:59):  irun -f ncvlog.f 
+s3(22Mar2023:21:17:24):  irun -f ncvlog.f 
+s4(22Mar2023:21:17:57):  ncverilog -f ncvlog.f 
+s5(22Mar2023:21:18:02):  irun -f ncvlog.f 
+s6(22Mar2023:21:18:47):  irun -f ncvlog.f 
+s7(22Mar2023:21:19:26):  ncverilog -f ncvlog.f 
+s8(22Mar2023:21:20:20):  irun -f ncvlog.f 
+s9(22Mar2023:21:21:22):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s10(22Mar2023:21:22:28):  ncverilog testfixture.v CONV.v 

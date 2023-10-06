@@ -1,0 +1,203 @@
+ncsim(64) 15.20-s084
+Linux 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64
+CPU cores: 256
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+REMOTEHOST=140-113-69-49.dorm9.nctu.edu.tw
+LC_PAPER=en_US.UTF-8
+SYNOPSYS_LC_ROOT=/cad/synopsys/lc/cur
+MANPATH=/usr/cad/synopsys/synthesis/2022.03/doc/syn/man:/usr/cad/synopsys/vcs/2022.06/doc/man:/usr/cad/synopsys/lc/2022.03/doc/lc/man:/usr/cad/synopsys/star-rcxt/2019.12-sp5-3//starrc/man
+POWERVIEW_64=1
+TMIARCH=RH_64
+XDG_SESSION_ID=3996
+LC_ADDRESS=en_US.UTF-8
+XLOCALEDIR=/usr/cad/synopsys/icc2/2021.06-sp5//etc/locale
+HOSTNAME=ee23
+LC_MONETARY=en_US.UTF-8
+HOST=ee23
+TERM=xterm-256color
+SHELL=/bin/tcsh
+SSH_CLIENT=140.113.69.49 62099 415
+CDS_LOAD_ENV=CSF
+LC_NUMERIC=en_US.UTF-8
+MGC_LOCATION_MAP=NO_MAP
+HSP_GCC_VERSION=7.3.0
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/0
+SPAPI_AHDL_INCLUDE=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/include
+QT_GRAPHICSSYSTEM_CHECKED=1
+HSP_HOME=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice
+GROUP=si2_contest
+USER=si2_contest004
+LD_LIBRARY_PATH=/RAID2/cad/synopsys/verdi/cur/share/PLI/IUS/linux64/boot:/RAID2/cad/synopsys/verdi/cur/share/PLI/lib/linux64
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LC_TELEPHONE=en_US.UTF-8
+installdir=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice
+HOSTTYPE=x86_64-linux
+CMIARCH=RH_64
+SYNOPSYS_NCX_ROOT=/usr/cad/synopsys/star-rcxt/2019.12-sp5-3/
+VC_STATIC_HOME=/usr/cad/synopsys/vc_formal/cur/
+MAIL=/var/spool/mail/si2_contest004
+PATH=/RAID2/cad/Xilinx/Vivado/2020.2/bin:/RAID2/eda/jasper_2021.03//bin:/usr/cad/synopsys/cosmos_scope/cur/ai_bin:/usr/cad/synopsys/icc/2022.03/amd64/syn/bin:/usr/cad/synopsys/primetime/2019.03-sp5-1//amd64/syn/bin:/usr/cad/synopsys/fc/2022.03/bin:/usr/cad/synopsys/lc/2022.03/bin:/usr/cad/synopsys/vc_formal/cur/bin:/usr/cad/synopsys/vcs/2022.06/amd64/bin:/usr/cad/synopsys/verdi/2019.06//bin:/usr/cad/synopsys/synthesis/2022.03/amd64/syn/bin:/cad/synopsys/lc/cur/bin:/usr/cad/cadence/SPECTRE/SPECTRE_19.10.322//tools/bin/64bit:/usr/cad/cadence/SPECTRE/SPECTRE_19.10.322//tools/dfII/bin/64bit:/usr/cad/cadence/SPECTRE/SPECTRE_19.10.322//tools/bin:/usr/cad/cadence/SPECTRE/SPECTRE_19.10.322//tools/dfII/bin:/usr/cad/cadence/SSV/SSV_21.12.000//tools/bin/64bit:/usr/cad/cadence/SSV/SSV_21.12.000//tools/bin:/usr/cad/cadence/QUANTUS/QUANTUS_21.11.000//tools/bin/64bit:/usr/cad/cadence/QUANTUS/QUANTUS_21.11.000//tools/bin:/usr/cad/cadence/PEGASUS/PEGASUS_21.20.000//tools/bin/64bit:/usr/cad/cadence/PEGASUS/PEGASUS_21.20.000//tools/bin:/usr/cad/cadence/INNOVUS/INNOVUS_20.15.000/tools/bin/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_20.15.000/tools/bin:/usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/bin/64bit:/usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/GENUS/GENUS_20.10.000/tools/bin/64bit:/usr/cad/cadence/GENUS/GENUS_20.10.000/tools/bin:/usr/cad/mentor/calibre/aoi_cal_2019.2_26.18//bin:/usr/cad/synopsys/laker_oa/2021.06//bin:/usr/cad/synopsys/customexplorer/2022.06//bin:/usr/cad/synopsys/customcompiler/2020.12-sp1-2//bin:/usr/cad/synopsys/customcompiler/2020.12-sp1-2//primewave/bin:/usr/cad/synopsys/finesim/2022.06//bin:/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/bin:/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/GNU/linux64/gcc/bin:/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/linux64:/usr/bin:/usr/ucb/bin:/usr/cad/synopsys/hspice/2020.03-sp2-2//hspice/bin:/usr/cad/cadence/LIBERATE/LIBREATE_21.72.187/tools.lnx86/bin/64bit:/usr/cad/cadence/LIBERATE/LIBREATE_21.72.187/tools.lnx86/bin:/usr/cad/cadence/IC/IC_06.18.210//tools/bin:/usr/cad/cadence/IC/IC_06.18.210//tools/dracula/bin:/usr/cad/cadence/IC/IC_06.18.210//tools/dfII/bin:/usr/cad/cadence/IC/IC_06.18.210//tools/bin/64bit:/usr/cad/cadence/IC/IC_06.18.210//tools/dracula/bin/64bit:/usr/cad/cadence/IC/IC_06.18.210//tools/dfII/bin/64bit:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/sbin/:/usr/sbin/:/RAID2/Tool/bin/
+VERDI_HOME=/usr/cad/synopsys/verdi/2019.06/
+CALIBRE_HOME=/usr/cad/mentor/calibre/aoi_cal_2019.2_26.18/
+LC_IDENTIFICATION=en_US.UTF-8
+PWD=/RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL
+VCS_HOME=/usr/cad/synopsys/vcs/2022.06
+Laker_TCL_ToolBox=1
+FINESIM_64=1
+LC_MEASUREMENT=en_US.UTF-8
+FINEWAVE_64=1
+VCS_CC=gcc
+CDSHOME=/usr/cad/cadence/IC/IC_06.18.210/
+SYNOPSYS=/usr/cad/synopsys/synthesis/cur/
+LM_LICENSE_FILE=26585@lshc:5280@lshc:1717@lshc:5280@lstn:5280@lstc:26585@lstn:26585@lstc:
+CDS_Netlisting_Mode=Analog
+HSP_GCC=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/GNU/linux64/gcc/bin/gcc -m64 
+SHLVL=2
+HOME=/RAID2/COURSE/si2_contest/si2_contest004
+OSTYPE=linux
+MGC_HOME=/usr/cad/mentor/calibre/aoi_cal_2019.2_26.18/
+Laker_TCL_L3=1
+ICV_HOME_DIR=/usr/cad/synopsys/icvalidator/2021.06-sp2/
+CDS_AUTO_64BIT=ALL
+SNPS_64=1
+MGC_TMPDIR=/tmp
+SNPS_PLATFORM=linux64
+HSP_SIGMA_AMP=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/linux64/python/Omega/Omega
+VENDOR=unknown
+MACHTYPE=x86_64
+LOGNAME=si2_contest004
+MGLS_LICENSE_FILE=1717@lshc
+QTLIB=/usr/lib64/qt-3.3/lib
+SSH_CONNECTION=140.113.69.49 62099 140.113.201.23 415
+mraarch=linux_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+JGOLD_dir=/RAID2/eda/jasper_2021.03/
+SHLIB_PATH=/usr/cad/synopsys/verdi/2019.06//etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2019.06//share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/:
+ARCH=linux64
+CDPL_HOME=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/cdpl
+XDG_RUNTIME_DIR=/run/user/10816
+DISPLAY=localhost:12.0
+SYN_MAN_DIR=/usr/cad/synopsys/star-rcxt/2019.12-sp5-3//starrc/man
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/bin/64bit/irun
+_IRUNROOT_=/usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools
+CDS_ARCH=lnx86
+NCRUNMODE=irun:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=irun
+argv[1]=-f
+argv[2]=ncvlog.f
+argv[3]=CONV.v
+argv[4]=testfixture.v
+argv[5]=-v
+argv[6]=tsmc13_neg.v
+argv[7]=+notimingchecks
+argv[8]=+debug
+argv[9]=+access+r
+argv[10]=-loadpli1
+argv[11]=debpli:novas_pli_boot
+119 profile - 100
+          CPU/Mem usage: 0.050 sys,  0.020 user,  103.10M sys,  0.00M vm
+120 VC callback profile - scalar:0 vector:0
+121 Wed Mar 22 23:39:03 2023
+122 pliAppInit
+123 FSDB_GATE is disabled.
+124 Enable Parallel Dumping.
+125 pliAppMiscSet: New Sim Round
+126 pliEntryInit
+127 LIBSSCORE=found /RAID2/cad/synopsys/verdi/cur/share/PLI/IUS/linux64/boot/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+128 argv[0]: CONV.fsdb
+129 FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+130 (C) 1996 - 2019 by Synopsys, Inc.
+131 sps_call_fsdbDumpfile at 0 : /RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/testfixture.v(72)
+132 argv[0]: CONV.fsdb
+133 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+134 *Verdi* : Create FSDB file 'CONV.fsdb'
+135 sps_call_fsdbDumpvars at 0 : /RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/testfixture.v(73)
+136 *Verdi* : Begin traversing the scopes, layer (0).
+137 *Verdi* : End of traversing.
+138 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.020 user,  188.58M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  4.19M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  4.19M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  4.19M sys,  0.00M vm
+
+          Count usage: 60 var,  58 idcode,  58 callback
+                 incr: 60 var,  58 idcode,  58 callback
+                 accu: 60 var,  58 idcode,  58 callback
+            accu incr: 60 var,  58 idcode,  58 callback
+139 VC callback profile - scalar:0 vector:0
+140 Wed Mar 22 23:39:03 2023
+141 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.060 sys,  0.020 user,  189.63M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  5.24M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 60 var,  58 idcode,  58 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 60 var,  58 idcode,  58 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+142 VC callback profile - scalar:17 vector:41
+143 Wed Mar 22 23:39:03 2023
+144 sps_call_fsdbDumpMDA at 0 : /RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/testfixture.v(74)
+145 *Verdi* : Begin traversing the MDAs, layer (0).
+146 *Verdi* : Enable +mda and +packedmda dumping.
+147 *Verdi* : End of traversing the MDAs.
+148 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.040 user,  191.31M sys,  0.00M vm
+                   incr: 0.000 sys,  0.020 user,  1.68M sys,  0.00M vm
+                   accu: 0.000 sys,  0.020 user,  1.68M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.020 user,  1.68M sys,  0.00M vm
+
+          Count usage: 14429 var,  14427 idcode,  14432 callback
+                 incr: 14369 var,  14369 idcode,  14374 callback
+                 accu: 14369 var,  14369 idcode,  14374 callback
+            accu incr: 14369 var,  14369 idcode,  14374 callback
+149 VC callback profile - scalar:17 vector:41
+150 Wed Mar 22 23:39:03 2023
+151 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.070 sys,  0.050 user,  191.86M sys,  0.00M vm
+                   incr: 0.010 sys,  0.010 user,  0.55M sys,  0.00M vm
+                   accu: 0.010 sys,  0.030 user,  2.24M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.010 user,  0.55M sys,  0.00M vm
+
+          Count usage: 14429 var,  14427 idcode,  14432 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 14369 var,  14369 idcode,  14374 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+152 VC callback profile - scalar:17 vector:14410
+153 Wed Mar 22 23:39:03 2023
+154 End of simulation at 25615000
+155 VC callback profile - scalar:135286 vector:336909
+156 Wed Mar 22 23:39:04 2023
+157 Begin FSDB profile info:
+158 FSDB Writer : bc1(135286) bcn(336909) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.083755) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+159 End FSDB profile info
+160 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:3 BlockUsed:6
+161                        ProduceTime:0.352790772 ConsumerTime:0.061290308 Buffer:64MB
+162 SimExit
+163 Sim process exit

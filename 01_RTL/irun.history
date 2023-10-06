@@ -1,0 +1,46 @@
+s1(22Mar2023:20:57:57):  irun -f ncvlog.f 
+s2(22Mar2023:21:16:59):  irun -f ncvlog.f 
+s3(22Mar2023:21:17:24):  irun -f ncvlog.f 
+s4(22Mar2023:21:17:57):  ncverilog -f ncvlog.f 
+s5(22Mar2023:21:18:02):  irun -f ncvlog.f 
+s6(22Mar2023:21:18:47):  irun -f ncvlog.f 
+s7(22Mar2023:21:19:26):  ncverilog -f ncvlog.f 
+s8(22Mar2023:21:20:20):  irun -f ncvlog.f 
+s9(22Mar2023:21:21:22):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s10(22Mar2023:21:22:28):  ncverilog testfixture.v CONV.v 
+s11(22Mar2023:21:22:35):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s12(22Mar2023:21:23:15):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s13(22Mar2023:21:23:20):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s14(22Mar2023:21:23:54):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s15(22Mar2023:21:31:57):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s16(22Mar2023:21:32:22):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s17(22Mar2023:21:40:03):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s18(22Mar2023:21:41:52):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s19(22Mar2023:21:48:30):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s20(22Mar2023:21:49:03):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s21(22Mar2023:22:12:03):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s22(22Mar2023:22:16:48):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s23(22Mar2023:22:24:19):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s24(22Mar2023:22:24:53):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s25(22Mar2023:22:30:14):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s26(22Mar2023:22:32:16):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s27(22Mar2023:22:40:24):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s28(22Mar2023:22:41:14):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s29(22Mar2023:22:44:13):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s30(22Mar2023:22:45:20):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s31(22Mar2023:22:46:01):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s32(22Mar2023:22:47:02):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s33(22Mar2023:23:10:23):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s34(22Mar2023:23:10:49):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s35(22Mar2023:23:11:10):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s36(22Mar2023:23:12:03):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s37(22Mar2023:23:13:45):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s38(22Mar2023:23:15:11):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s39(22Mar2023:23:15:34):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s40(22Mar2023:23:16:25):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s41(22Mar2023:23:18:32):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s42(22Mar2023:23:18:48):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s43(22Mar2023:23:20:12):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s44(22Mar2023:23:26:13):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s45(22Mar2023:23:39:03):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s46(27Mar2023:03:39:41):  irun -f ncvlog.f CONV 

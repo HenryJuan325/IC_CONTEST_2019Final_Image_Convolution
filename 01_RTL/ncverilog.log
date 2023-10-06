@@ -1,0 +1,50 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Mar 22, 2023 at 21:22:28 CST
+ncverilog
+	testfixture.v
+	CONV.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	$fsdbDumpfile("CONV.fsdb");
+	            |
+ncelab: *W,MISSYST (./testfixture.v,72|13): Unrecognized system task or function: $fsdbDumpfile (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+If item was defined in a shared-object library, the problem could be:
+libvpi.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library.
+libpli.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library..
+	$fsdbDumpvars;
+	            |
+ncelab: *W,MISSYST (./testfixture.v,73|13): Unrecognized system task or function: $fsdbDumpvars (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+	$fsdbDumpMDA;
+	           |
+ncelab: *W,MISSYST (./testfixture.v,74|12): Unrecognized system task or function: $fsdbDumpMDA (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.CONV:v <0x2b871120>
+			streams:  56, words: 30094
+		worklib.testfixture:v <0x3bccbbab>
+			streams:  26, words: 29005
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               35      35
+		Scalar wires:            11       -
+		Vectored wires:          23       -
+		Always blocks:           27      20
+		Initial blocks:          12      12
+		Cont. assignments:       19      23
+		Pseudo assignments:       4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+	$fsdbDumpfile("CONV.fsdb");
+	            |
+ncsim: *E,MSSYSTF (./testfixture.v,72|13): User Defined system task or function ($fsdbDumpfile) registered during elaboration and used within the simulation has not been registered during simulation.
+	$fsdbDumpvars;
+	            |
+ncsim: *E,MSSYSTF (./testfixture.v,73|13): User Defined system task or function ($fsdbDumpvars) registered during elaboration and used within the simulation has not been registered during simulation.
+	$fsdbDumpMDA;
+	           |
+ncsim: *E,MSSYSTF (./testfixture.v,74|12): User Defined system task or function ($fsdbDumpMDA) registered during elaboration and used within the simulation has not been registered during simulation.
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 22, 2023 at 21:22:29 CST  (total: 00:00:01)

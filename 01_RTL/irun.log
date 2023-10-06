@@ -1,0 +1,16 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Mar 27, 2023 at 03:39:41 CST
+irun
+	-f ncvlog.f
+		design=$1
+		testfixture.v
+		-v tsmc13_neg.v
+		+notimingchecks
+		+debug
+		+access+r
+	CONV
+irun: *E,FMUK: The type of the file (design=$1) could not be determined.
+irun: *E,FILEMIS: Cannot find the provided file design=$1.
+irun: *E,FMUK: The type of the file (CONV) could not be determined.
+irun: *E,FILEMIS: Cannot find the provided file CONV.
+TOOL:	irun(64)	15.20-s084: Exiting on Mar 27, 2023 at 03:39:41 CST  (total: 00:00:00)

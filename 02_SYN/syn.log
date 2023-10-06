@@ -1,0 +1,655 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version T-2022.03 for linux64 - Feb 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#Read All Files
+read_file -format verilog  CONV.v
+Loading db file '/RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:145: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:145: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:144: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:91: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:92: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:93: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:95: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:96: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:97: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:101: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:102: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:103: signed to unsigned conversion occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:106: signed to unsigned assignment occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:152: unsigned to signed assignment occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:156: unsigned to signed assignment occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:161: unsigned to signed assignment occurs. (VER-318)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v:149: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 176 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           179            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 218 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           219            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 243 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           244            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 251 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           252            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 259 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           260            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 267 in file
+	'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           268            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CONV line 116 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     sum_reg_reg     | Flip-flop |  360  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 167 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     window_reg      | Flip-flop |  120  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 146 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     window_reg      | Flip-flop |  60   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 176 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cnt_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 186 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    iaddr_cnt_reg    | Flip-flop |  12   |  Y  | N  | N  | Y  | N  | N  | N  |
+|    iaddr_cnt_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 211 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     c_state_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 229 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      busy_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 302 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    state_cnt_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 315 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   buffer_comp_reg   | Flip-flop |  20   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 332 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     row_cnt_reg     | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 346 in file
+		'/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     col_cnt_reg     | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.db:CONV'
+Loaded 1 design.
+Current design is 'CONV'.
+CONV
+current_design CONV
+Current design is 'CONV'.
+{CONV}
+link
+
+  Linking design 'CONV'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  CONV                        /RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV.db
+  slow (library)              /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose CONV.sdc
+# operating conditions and boundary conditions #
+create_clock -name clk  -period 10.0   [get_ports  clk] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports clk]
+1
+#Don't touch the basic env setting as below
+set_input_delay  5.0   -clock clk [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_output_delay 0.5    -clock clk [all_outputs] 
+1
+set_load         1   [all_outputs]
+1
+set_drive        1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+set_max_fanout 20 [all_inputs]
+1
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Wed Mar 22 23:50:25 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Constant outputs (LINT-52)                                      1
+
+Cells                                                               7
+    Cells do not drive (LINT-1)                                     7
+--------------------------------------------------------------------------------
+
+Warning: In design 'CONV', cell 'C2641' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'C2644' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'B_41' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'C2714' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'C2716' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'C2727' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', cell 'C2733' does not drive any nets. (LINT-1)
+Warning: In design 'CONV', output port 'csel[2]' is connected directly to 'logic 0'. (LINT-52)
+1
+set high_fanout_net_threshold 0
+0
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+1
+#Synthesis all design
+#compile -map_effort high -area_effort high
+#compile -map_effort high -area_effort high -inc
+compile
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | S-2021.06-DWBB_202106.0 |     *     |
+| Licensed DW Building Blocks        | S-2021.06-DWBB_202106.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 908                                    |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 592                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch cells                              | 88                                     |
+| Number of Dont Touch nets                               | 1                                      |
+| Number of size only cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all -buffer_constants                 |
+====================================================================================================
+
+Information: There are 8 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'CONV'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'CONV_DW01_inc_0_DW01_inc_2'
+  Processing 'CONV_DW01_inc_1_DW01_inc_3'
+  Mapping 'CONV_DW_cmp_0'
+  Processing 'CONV_DW01_add_0'
+  Processing 'CONV_DW01_add_1'
+  Processing 'CONV_DW01_add_2'
+  Mapping 'CONV_DW_cmp_1'
+  Processing 'CONV_DW01_inc_2_DW01_inc_4'
+  Processing 'CONV_DW01_inc_3_DW01_inc_5'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_add_width41' (rpl)
+  Processing 'DW01_add_width41'
+  Building model 'DW01_add_width42' (rpl)
+  Processing 'DW01_add_width42'
+  Building model 'DW01_add_width43' (rpl)
+  Processing 'DW01_add_width43'
+  Mapping 'CONV_DW_mult_tc_0'
+  Mapping 'CONV_DW_mult_tc_1'
+  Mapping 'CONV_DW_mult_tc_2'
+  Processing 'CONV_DW01_add_3'
+  Processing 'CONV_DW01_add_4'
+  Processing 'CONV_DW01_add_5'
+  Processing 'CONV_DW01_add_6'
+  Processing 'CONV_DW01_add_7'
+  Processing 'CONV_DW01_add_8'
+  Processing 'CONV_DW01_add_9'
+  Processing 'CONV_DW01_add_10'
+  Processing 'CONV_DW01_add_11'
+  Mapping 'CONV_DW_mult_tc_3'
+  Mapping 'CONV_DW_mult_tc_4'
+  Mapping 'CONV_DW_mult_tc_5'
+  Mapping 'CONV_DW_mult_tc_6'
+  Mapping 'CONV_DW_mult_tc_7'
+  Mapping 'CONV_DW_mult_tc_8'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'CONV'. (DDB-72)
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:07  181455.5      0.00       0.0   41582.9 *cell*9854/*cell*9965/Y        0.00  
+    0:00:07  181455.5      0.00       0.0   41582.9 *cell*9854/*cell*9965/Y        0.00  
+    0:00:07  181336.6      0.00       0.0   41582.9 *cell*9854/U458/Y              0.00  
+    0:00:07  181141.4      0.00       0.0   41582.9 *cell*9854/U420/Y              0.00  
+    0:00:07  181000.6      0.00       0.0   41582.9 *cell*9854/*cell*9949/Y        0.00  
+    0:00:07  180835.9      0.00       0.0   41582.9 *cell*9854/U428/Y              0.00  
+    0:00:07  180745.9      0.00       0.0   41582.9 *cell*9854/U319/Y              0.00  
+    0:00:07  180600.0      0.00       0.0   41582.9 *cell*9854/U306/Y              0.00  
+    0:00:07  180384.4      0.00       0.0   41582.9 *cell*9854/*cell*10122/Y       0.00  
+    0:00:08  180204.5      0.00       0.0   41582.9 *cell*9854/U294/Y              0.00  
+    0:00:08  180095.8      0.00       0.0   41582.9 *cell*9854/U245/Y              0.00  
+    0:00:08  179902.3      0.00       0.0   41582.9 *cell*9854/U221/Y              0.00  
+    0:00:08  179783.5      0.00       0.0   41582.9 *cell*9854/U449/Y              0.00  
+    0:00:08  179578.1      0.00       0.0   41582.9 *cell*9854/U432/Y              0.00  
+    0:00:08  179296.4      0.00       0.0   41582.9 *cell*9854/*cell*10368/Y       0.00  
+    0:00:08  179226.8      0.00       0.0   41582.9 *cell*9854/U161/Y              0.00  
+    0:00:08  179051.9      0.00       0.0   41582.9 *cell*9854/U172/Y              0.00  
+    0:00:08  178926.3      0.00       0.0   41582.9 *cell*9854/U466/Y              0.00  
+    0:00:08  178843.2      0.00       0.0   41582.9 *cell*9854/*cell*10229/Y       0.00  
+    0:00:08  178625.9      0.00       0.0   41582.9 *cell*9854/U49/Y               0.00  
+    0:00:08  178400.1      0.00       0.0   41582.9 *cell*9854/*cell*10530/Y       0.00  
+    0:00:08  178228.7      0.00       0.0   41582.9 *cell*9854/U85/Y               0.00  
+    0:00:08  178164.2      0.00       0.0   41582.9 *cell*9854/*cell*10581/Y       0.00  
+    0:00:08  177991.1      0.00       0.0   41582.9 *cell*9854/U44/Y               0.00  
+    0:00:08  177889.2      0.00       0.0   41582.9 *cell*9854/*cell*10632/Y       0.00  
+    0:00:08  177729.7      0.00       0.0   41582.9 *cell*9854/U19/Y               0.00  
+    0:00:08  177507.3      0.00       0.0   41582.9 *cell*9854/U469/Y              0.00  
+    0:00:09  178333.9      0.00       0.0   41582.9 *cell*10684/U389/Y             0.00  
+    0:00:09  178145.5      0.00       0.0   41582.9 *cell*10684/*cell*10775/Y      0.00  
+    0:00:09  178018.2      0.00       0.0   41582.9 *cell*10684/*cell*10843/Y      0.00  
+    0:00:09  177902.8      0.00       0.0   41582.9 *cell*10684/U454/Y             0.00  
+    0:00:09  177794.2      0.00       0.0   41582.9 *cell*10684/U449/Y             0.00  
+    0:00:09  177660.1      0.00       0.0   41582.9 *cell*10684/U312/Y             0.00  
+    0:00:09  177430.9      0.00       0.0   41582.9 *cell*10684/*cell*10981/Y      0.00  
+    0:00:09  177203.5      0.00       0.0   41582.9 *cell*10684/U369/Y             0.00  
+    0:00:09  177025.2      0.00       0.0   41582.9 *cell*10684/*cell*10982/Y      0.00  
+    0:00:09  176848.7      0.00       0.0   41582.9 *cell*10684/U199/Y             0.00  
+    0:00:09  176684.1      0.00       0.0   41582.9 *cell*10684/*cell*11108/Y      0.00  
+    0:00:09  176488.9      0.00       0.0   41582.9 *cell*10684/U225/Y             0.00  
+    0:00:09  176348.0      0.00       0.0   41582.9 *cell*10684/*cell*11138/Y      0.00  
+    0:00:09  176098.5      0.00       0.0   41582.9 *cell*10684/U127/Y             0.00  
+    0:00:09  175933.8      0.00       0.0   41582.9 *cell*10684/*cell*11210/Y      0.00  
+    0:00:09  175777.7      0.00       0.0   41582.9 *cell*10684/U183/Y             0.00  
+    0:00:09  175609.6      0.00       0.0   41582.9 *cell*10684/U172/Y             0.00  
+    0:00:10  175497.6      0.00       0.0   41582.9 *cell*10684/*cell*11266/Y      0.00  
+    0:00:10  175383.9      0.00       0.0   41582.9 *cell*10684/*cell*11296/Y      0.00  
+    0:00:10  175280.3      0.00       0.0   41582.9 *cell*10684/*cell*11047/Y      0.00  
+    0:00:10  175078.3      0.00       0.0   41582.9 *cell*10684/*cell*11353/Y      0.00  
+    0:00:10  174908.6      0.00       0.0   41582.9 *cell*10684/*cell*11378/Y      0.00  
+    0:00:10  174711.7      0.00       0.0   41582.9 *cell*10684/*cell*11363/Y      0.00  
+    0:00:10  174591.2      0.00       0.0   41582.9 *cell*10684/*cell*11389/Y      0.00  
+    0:00:10  174353.5      0.00       0.0   41582.9 *cell*10684/U41/Y              0.00  
+    0:00:10  174194.0      0.00       0.0   41582.9 *cell*10684/*cell*11221/Y      0.00  
+    0:00:10  174059.9      0.00       0.0   41582.9 *cell*10684/*cell*11495/Y      0.00  
+    0:00:10  173165.4      0.03       0.2   41582.9 *cell*11502/U293/Y             0.00  
+    0:00:10  172934.5      0.00       0.0   41582.9 *cell*11502/U316/Y             0.00  
+    0:00:10  172729.1      0.00       0.0   41582.9 *cell*11502/*cell*11668/Y      0.00  
+    0:00:10  172569.6      0.00       0.0   41582.9 *cell*11502/*cell*11701/Y      0.00  
+    0:00:10  172476.2      0.00       0.0   41582.9 *cell*11502/*cell*11524/Y      0.00  
+    0:00:11  172243.7      0.00       0.0   41582.9 *cell*11502/*cell*11759/Y      0.00  
+    0:00:11  172143.5      0.00       0.0   41582.9 *cell*11502/U124/Y             0.00  
+    0:00:11  172009.4      0.00       0.0   41582.9 *cell*11502/U408/Y             0.00  
+    0:00:11  171860.1      0.00       0.0   41582.9 *cell*11502/U176/Y             0.00  
+    0:00:11  171644.5      0.00       0.0   41582.9 *cell*11502/*cell*11874/Y      0.00  
+    0:00:11  171510.4      0.00       0.0   41582.9 *cell*11502/*cell*11886/Y      0.00  
+    0:00:11  171393.3      0.00       0.0   41582.9 *cell*11502/*cell*11734/Y      0.00  
+    0:00:11  171242.2      0.00       0.0   41582.9 *cell*11502/*cell*11793/Y      0.00  
+    0:00:11  171113.2      0.00       0.0   41582.9 *cell*11502/*cell*11898/Y      0.00  
+    0:00:11  171023.2      0.00       0.0   41582.9 *cell*11502/*cell*11924/Y      0.00  
+    0:00:11  170884.0      0.00       0.0   41582.9 *cell*11502/U378/Y             0.00  
+    0:00:11  170765.2      0.00       0.0   41582.9 *cell*11502/*cell*11780/Y      0.00  
+    0:00:11  170568.3      0.00       0.0   41582.9 *cell*11502/U227/Y             0.00  
+    0:00:11  170386.7      0.00       0.0   41582.9 *cell*11502/U120/Y             0.00  
+    0:00:11  170211.9      0.00       0.0   41582.9 *cell*11502/U278/Y             0.00  
+    0:00:11  170065.9      0.00       0.0   41582.9 *cell*11502/*cell*12211/Y      0.00  
+    0:00:11  169952.2      0.00       0.0   41582.9 *cell*11502/*cell*11634/Y      0.00  
+    0:00:11  169758.7      0.00       0.0   41582.9 *cell*11502/U415/Y             0.00  
+    0:00:11  169699.3      0.00       0.0   41582.9 *cell*11502/*cell*11864/Y      0.00  
+    0:00:12  169488.8      0.00       0.0   41582.9 *cell*11502/U59/Y              0.00  
+    0:00:12  168733.4      0.15       1.7   41582.9 *cell*12300/U446/Y             0.00  
+    0:00:12  168451.7      0.05       0.4   41582.9 *cell*12300/U262/Y             0.00  
+    0:00:12  168266.7      0.02       0.2   41582.9 *cell*12300/U283/Y             0.00  
+    0:00:12  167981.5      0.01       0.0   41582.9 *cell*12300/*cell*12469/Y      0.00  
+    0:00:12  167808.4      0.01       0.0   41582.9 *cell*12300/*cell*12555/Y      0.00  
+    0:00:12  167740.5      0.01       0.0   41582.9 *cell*12300/*cell*12586/Y      0.00  
+    0:00:12  167648.8      0.01       0.0   41582.9 *cell*12300/U298/Y             0.00  
+    0:00:12  167426.4      0.01       0.0   41582.9 *cell*12300/*cell*12532/Y      0.00  
+    0:00:12  167278.8      0.01       0.0   41582.9 *cell*12300/U122/Y             0.00  
+    0:00:12  167115.8      0.01       0.0   41582.9 *cell*12300/U423/Y             0.00  
+    0:00:12  166915.5      0.01       0.0   41582.9 *cell*12300/U392/Y             0.00  
+    0:00:12  166798.4      0.01       0.0   41582.9 *cell*12300/*cell*12767/Y      0.00  
+    0:00:12  166623.6      0.00       0.0   41582.9 *cell*12300/*cell*12791/Y      0.00  
+    0:00:12  166518.3      0.00       0.0   41582.9 *cell*12300/*cell*12835/Y      0.00  
+    0:00:12  166365.6      0.00       0.0   41582.9 *cell*12300/U84/Y              0.00  
+    0:00:13  166260.3      0.00       0.0   41582.9 *cell*12300/*cell*12911/Y      0.00  
+    0:00:13  166097.4      0.00       0.0   41582.9 *cell*12300/U95/Y              0.00  
+    0:00:13  165931.0      0.00       0.0   41582.9 *cell*12300/U175/Y             0.00  
+    0:00:13  165737.5      0.00       0.0   41582.9 *cell*12300/U453/Y             0.00  
+    0:00:13  165618.7      0.00       0.0   41582.9 *cell*12300/U459/Y             0.00  
+    0:00:13  165516.9      0.00       0.0   41582.9 *cell*12300/*cell*12840/Y      0.00  
+    0:00:13  165408.2      0.00       0.0   41582.9 *cell*12300/*cell*13028/Y      0.00  
+    0:00:13  165303.0      0.00       0.0   41582.9 *cell*12300/U346/Y             0.00  
+    0:00:13  165189.3      0.00       0.0   41582.9 *cell*12300/*cell*12490/Y      0.00  
+    0:00:13  165123.1      0.00       0.0   41582.9 *cell*12300/U463/Y             0.00  
+    0:00:13  164978.8      0.06       0.4   41582.9 *cell*13187/*cell*13229/Y      0.00  
+    0:00:13  164753.0      0.05       0.3   41582.9 *cell*13187/U416/Y             0.00  
+    0:00:13  164544.3      0.04       0.2   41582.9 *cell*13187/U368/Y             0.00  
+    0:00:13  164237.0      0.04       0.3   41582.9 *cell*13187/U286/Y             0.00  
+    0:00:13  163994.3      0.04       0.2   41582.9 *cell*13187/*cell*13388/Y      0.00  
+    0:00:13  163753.3      0.04       0.2   41582.9 *cell*13187/*cell*13494/Y      0.00  
+    0:00:13  163637.8      0.04       0.2   41582.9 *cell*13187/*cell*13344/Y      0.00  
+    0:00:14  163466.4      0.04       0.2   41582.9 *cell*13187/*cell*13538/Y      0.00  
+    0:00:14  163383.2      0.04       0.3   41582.9 *cell*13187/U352/Y             0.00  
+    0:00:14  163278.0      0.04       0.3   41582.9 *cell*13187/*cell*13433/Y      0.00  
+    0:00:14  163123.5      0.04       0.3   41582.9 *cell*13187/*cell*13353/Y      0.00  
+    0:00:14  162952.1      0.04       0.3   41582.9 *cell*13187/*cell*13691/Y      0.00  
+    0:00:14  162794.2      0.04       0.3   41582.9 *cell*13187/*cell*13704/Y      0.00  
+    0:00:14  162590.6      0.04       0.3   41582.9 *cell*13187/U218/Y             0.00  
+    0:00:14  162468.3      0.04       0.4   41582.9 *cell*13187/U120/Y             0.00  
+    0:00:14  162335.9      0.04       0.4   41582.9 *cell*13187/*cell*13642/Y      0.00  
+    0:00:14  162205.2      0.04       0.4   41582.9 *cell*13187/*cell*13540/Y      0.00  
+    0:00:14  162035.5      0.04       0.4   41582.9 *cell*13187/*cell*13670/Y      0.00  
+    0:00:14  161899.7      0.04       0.4   41582.9 *cell*13187/U211/Y             0.00  
+    0:00:14  161847.1      0.04       0.4   41582.9 *cell*13187/*cell*13954/Y      0.00  
+Information: The register 'sum_reg_reg[0][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[3][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[3][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[5][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[5][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[7][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'sum_reg_reg[7][1]' is a constant and will be removed. (OPT-1206)
+    0:00:15  162422.5      0.04       0.3   41582.9                                0.00  
+    0:00:15  162402.1      0.04       0.2   41582.9                                0.00  
+    0:00:15  162402.1      0.04       0.2   41582.9                                0.00  
+    0:00:15  162405.5      0.03       0.2   41582.9                                0.00  
+    0:00:15  162405.5      0.03       0.2   41582.9                                0.00  
+    0:00:17   84931.1      6.47     206.1   41289.1                                0.00  
+    0:00:18   88057.7      6.19     165.2   41289.1                                0.00  
+    0:00:19   87485.7      5.34     177.1   40558.9                                0.00  
+    0:00:19   87791.2      4.89     132.2   39828.8                                0.00  
+    0:00:19   87572.3      4.91     129.9   39828.8                                0.00  
+    0:00:19   87725.0      4.64     136.9   39828.8                                0.00  
+    0:00:20   87699.6      4.93     133.7   39828.8                                0.00  
+    0:00:20   87796.3      4.38     132.8   39828.8                                0.00  
+    0:00:20   87803.1      4.41     132.6   39828.8                                0.00  
+    0:00:20   87857.4      4.12     125.6   39828.8                                0.00  
+    0:00:20   87886.3      3.99     124.8   39828.8                                0.00  
+    0:00:20   87915.1      3.94     122.2   39828.8                                0.00  
+    0:00:20   87961.0      3.87     121.8   39828.8                                0.00  
+    0:00:20   88011.9      3.80     121.0   39828.8                                0.00  
+    0:00:20   88074.7      3.70     118.3   39828.8                                0.00  
+    0:00:20   88135.8      3.60     117.3   39828.8                                0.00  
+    0:00:21   88185.0      3.60     117.2   39828.8                                0.00  
+    0:00:21   88207.1      3.59     117.0   39828.8                                0.00  
+    0:00:21   88207.1      3.59     117.0   39828.8                                0.00  
+    0:00:21   88207.1      3.59     117.0   39828.8                                0.00  
+    0:00:21   88207.1      3.59     117.0   39828.8                                0.00  
+    0:00:21   88312.3      3.59     115.6   27950.3                                0.00  
+    0:00:21   88393.8      3.59     114.2   22443.8                                0.00  
+    0:00:21   88473.6      3.59     112.8   18420.7                                0.00  
+    0:00:21   88551.7      3.59     111.5   15138.7                                0.00  
+    0:00:21   88606.0      3.58     110.1   13312.0                                0.00  
+    0:00:21   88616.2      3.58     110.1   12412.5                                0.00  
+    0:00:21   88616.2      3.58     110.1   12412.5                                0.00  
+    0:00:21   88616.2      3.58     110.1   12412.5                                0.00  
+    0:00:21   88616.2      3.58     110.1   12412.5                                0.00  
+    0:00:21   89677.0      1.81      74.6    2920.5 cdata_wr[19]                   0.00  
+    0:00:21   90206.6      1.13      38.7    2920.5 cdata_wr[16]                   0.00  
+    0:00:22   90646.3      0.83      32.3    2920.5 cdata_wr[16]                   0.00  
+    0:00:22   91106.2      0.44      14.3    2921.2 cdata_wr[19]                   0.00  
+    0:00:22   92314.8      0.17       3.4    2922.0 cdata_wr[19]                   0.00  
+    0:00:22   92822.3      0.00       0.0    2922.0                                0.00  
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:22   92822.3      0.00       0.0    2922.0                                0.00  
+    0:00:22   92822.3      0.00       0.0    2922.0                                0.00  
+    0:00:23   92732.4      0.00       0.0    3048.7                                0.00  
+    0:00:23   92713.7      0.00       0.0    4069.8                                0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:23   92713.7      0.00       0.0    4069.8                                0.00  
+    0:00:23   92778.2      0.00       0.0       0.0                                0.00  
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:23   92778.2      0.00       0.0       0.0                                0.00  
+    0:00:23   92778.2      0.00       0.0       0.0                                0.00  
+    0:00:23   90804.1      0.54       7.0       0.0                                0.00  
+    0:00:23   90371.3      0.44       4.8       0.0                                0.00  
+    0:00:23   90262.6      0.43       4.7       0.0                                0.00  
+    0:00:23   90235.5      0.43       4.7       0.0                                0.00  
+    0:00:23   90204.9      0.43       4.7       0.0                                0.00  
+    0:00:23   90204.9      0.43       4.7       0.0                                0.00  
+    0:00:24   90393.3      0.00       0.0       0.0                                0.00  
+    0:00:24   85890.1      1.72      57.8       0.0                                0.00  
+    0:00:24   85420.0      1.67      55.2       0.0                                0.00  
+    0:00:24   85285.9      1.67      54.3       0.0                                0.00  
+    0:00:24   85263.8      1.67      54.3       0.0                                0.00  
+    0:00:24   85263.8      1.67      54.3       0.0                                0.00  
+    0:00:24   85263.8      1.67      54.3       0.0                                0.00  
+    0:00:24   85263.8      1.67      54.3       0.0                                0.00  
+    0:00:24   85263.8      1.67      54.3       0.0                                0.00  
+    0:00:24   86054.8      0.53      18.8       0.0 cdata_wr[19]                   0.00  
+    0:00:25   86689.6      0.34      12.9       0.0 cdata_wr[19]                   0.00  
+    0:00:25   87141.1      0.17       6.2       0.0 cdata_wr[18]                   0.00  
+    0:00:25   87451.7      0.05       0.3       0.0 cdata_wr[18]                   0.00  
+    0:00:25   87268.4      0.00       0.0       0.0                                0.00  
+Loading db file '/RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+write -format ddc     -hierarchy -output "CONV_syn.ddc"
+Writing ddc file 'CONV_syn.ddc'.
+1
+write_sdf -version 1.0  CONV_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -format verilog -hierarchy -output CONV_syn.v
+Writing verilog file '/RAID2/COURSE/si2_contest/si2_contest004/Contest/02_SYN/CONV_syn.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 29 nets to module CONV using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  CONV_syn.qor
+dc_shell> exit
+
+Memory usage for this session 201 Mbytes.
+Memory usage for this session including child processes 201 Mbytes.
+CPU usage for this session 28 seconds ( 0.01 hours ).
+Elapsed time for this session 36 seconds ( 0.01 hours ).
+
+Thank you...

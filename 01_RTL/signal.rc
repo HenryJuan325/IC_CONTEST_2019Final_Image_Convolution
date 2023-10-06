@@ -1,0 +1,92 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 23 1920 1009 208 760
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/CONV.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 16399201.934428 16439546.309428
+cursor 12169500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 21
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/CONV.fsdb"
+addSignal -h 15 /testfixture/u_CONV/clk
+addSignal -h 15 /testfixture/busy
+addSignal -h 15 -UNSIGNED -UDEC /testfixture/u_CONV/cnt[1:0]
+addSignal -h 15 -holdScope c_state[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope iaddr[11:0]
+addSignal -h 15 -2COMP -UDEC -holdScope idata[19:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope window[8:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope iaddr_cnt[12:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope iaddr_temp[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope window_w[8:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope caddr_wr_0[11:0]
+addSignal -h 15 -holdScope cdata_wr_0[19:0]
+addSignal -h 15 -holdScope final_result[19:0]
+addSignal -h 15 -holdScope crd
+addSignal -h 15 -holdScope csel_1
+addSignal -h 15 -UNSIGNED -UDEC -holdScope caddr_rd[11:0]
+addSignal -h 15 -holdScope caddr_wr[11:0]
+addSignal -h 15 -holdScope col_cnt[4:0]
+addSignal -h 15 -holdScope cdata_wr_1[19:0]
+addSignal -h 15 -holdScope cdata_rd[19:0]
+addSignal -h 15 -holdScope row_cnt[4:0]
+addSignal -h 15 -holdScope window_0[2:0]
+addSignal -h 15 -holdScope window_L[2:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/si2_contest/si2_contest004/Contest/01_RTL/CONV.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/testfixture"
+"/testfixture/u_CONV"
+
+SCOPE_LIST_BEGIN
+"/testfixture"
+"/testfixture/u_CONV"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
